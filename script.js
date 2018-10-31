@@ -15,7 +15,9 @@
     addToMain.appendChild(signUpForm);
 
     var signUpInputElement = document.createElement("input");
+    signUpInputElement.setAttribute("aria-describedby", "emailHelp");
     signUpInputElement.setAttribute("type", "email");
+    signUpInputElement.setAttribute("placeholder", "Enter email");
     addToMain.appendChild(signUpInputElement);
 
 
