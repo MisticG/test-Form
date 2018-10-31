@@ -7,10 +7,11 @@
 
     var header = document.createElement("h2");
     header.innerHTML = "Sign Up!";
-    addToMain
+    addToMain.appendChild(header)
+    
     var signUpForm = document.createElement("form");
         signUpForm.innerText = "Namn: ";
-        signUpForm.classList.add("form-group", "form-control", "form-text-muted");
+        signUpForm.classList.add("form-group", "form-control");
 
     addToMain.appendChild(signUpForm);
 
